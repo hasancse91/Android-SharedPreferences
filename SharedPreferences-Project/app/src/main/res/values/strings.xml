@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SharedPreferences-Project</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="student_checkbox">I\'m a student</string>
+    <string name="save">Save</string>
+</resources>
