@@ -23,7 +23,6 @@ public class MyPreferences {
     public void setUserName(String userName){
         editor.putString(Config.USER_NAME, userName);
         editor.apply();
-        editor.commit();
     }
 
     public String getUserName(){
@@ -35,7 +34,6 @@ public class MyPreferences {
     public void setAge(int age){
         editor.putInt(Config.AGE, age);
         editor.apply();
-        editor.commit();
     }
 
     public int getAge(){
@@ -45,7 +43,6 @@ public class MyPreferences {
     public void setStudentFlag(boolean isStudent){
         editor.putBoolean(Config.IS_STUDENT, isStudent);
         editor.apply();
-        editor.commit();
     }
 
     public boolean isStudent(){
